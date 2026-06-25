@@ -19,17 +19,17 @@ export default function App() {
       </nav>
 
       {/* HERO — asymmetric, not centered */}
-      <section className="relative w-full pt-32 pb-[clamp(80px,12vh,160px)]">
+      <section className="relative w-full pt-28 pb-[clamp(80px,12vh,160px)]">
         <div className="shell">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <p className="text-accent text-xs font-medium tracking-[0.2em] uppercase mb-6">
                 Design System
               </p>
-              <h1 className="font-display text-[clamp(2.5rem,5vw,4.5rem)] leading-[1.1] mb-6">
+              <h1 className="font-display text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.15] mb-8">
                 Build interfaces that feel alive
               </h1>
-              <p className="text-muted text-lg leading-relaxed max-w-md mb-8">
+              <p className="text-muted text-lg leading-relaxed max-w-md mb-10">
                 Aura is a design toolkit for crafting digital experiences with depth, motion, and intention. No templates. No shortcuts.
               </p>
               <div className="flex items-center gap-4">
@@ -56,7 +56,7 @@ export default function App() {
             <p className="text-accent text-xs font-medium tracking-[0.2em] uppercase mb-3">
               Capabilities
             </p>
-            <h2 className="font-display text-[clamp(2rem,4vw,3.5rem)] leading-[1.1]">
+            <h2 className="font-display text-[clamp(1.8rem,3.5vw,3rem)] leading-[1.15]">
               Everything you need,<br />nothing you don't
             </h2>
           </div>
@@ -72,7 +72,7 @@ export default function App() {
                   <rect x="11" y="11" width="7" height="7" stroke="#00f5ff" strokeWidth="1.5"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Adaptive Grid System</h3>
+              <h3 className="text-xl font-semibold mb-4">Adaptive Grid System</h3>
               <p className="text-muted leading-relaxed">
                 Layouts that respond to content, not breakpoints. Our grid system understands hierarchy and adapts naturally to any screen size.
               </p>
@@ -86,7 +86,7 @@ export default function App() {
                   <path d="M10 6v4l3 2" stroke="#ffd700" strokeWidth="1.5" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Motion First</h3>
+              <h3 className="text-xl font-semibold mb-4">Motion First</h3>
               <p className="text-muted leading-relaxed">
                 Every interaction has purpose. Animations guide attention, not distract from it.
               </p>
@@ -99,7 +99,7 @@ export default function App() {
                   <path d="M3 10h14M10 3v14" stroke="#00f5ff" strokeWidth="1.5" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Pixel Perfect</h3>
+              <h3 className="text-xl font-semibold mb-4">Pixel Perfect</h3>
               <p className="text-muted leading-relaxed">
                 Every element is placed with intention. No random spacing, no arbitrary colors.
               </p>
@@ -113,7 +113,7 @@ export default function App() {
                   <path d="M7 10h6M10 7v6" stroke="#ffd700" strokeWidth="1.5" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Component Library</h3>
+              <h3 className="text-xl font-semibold mb-4">Component Library</h3>
               <p className="text-muted leading-relaxed">
                 50+ production-ready components that work together seamlessly.
               </p>
@@ -126,7 +126,7 @@ export default function App() {
                   <path d="M4 16l4-4 4 4 4-8" stroke="#00f5ff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Performance by Default</h3>
+              <h3 className="text-xl font-semibold mb-4">Performance by Default</h3>
               <p className="text-muted leading-relaxed">
                 Zero-config optimization. Lazy loading, code splitting, and asset optimization built into the core. Your app loads fast because the framework makes it impossible not to.
               </p>
@@ -142,7 +142,7 @@ export default function App() {
             <p className="text-accent text-xs font-medium tracking-[0.2em] uppercase mb-3">
               Pricing
             </p>
-            <h2 className="font-display text-[clamp(2rem,4vw,3.5rem)] leading-[1.1] mb-4">
+            <h2 className="font-display text-[clamp(1.8rem,3.5vw,3rem)] leading-[1.15] mb-4">
               Simple, transparent
             </h2>
             <p className="text-muted max-w-lg mx-auto">
@@ -162,7 +162,7 @@ export default function App() {
               <button className="btn-ghost w-full justify-center text-sm">Get Started</button>
             </div>
 
-            <div className="bg-surface p-8 rounded-sm border border-accent/30 relative">
+            <div className="glass p-8 rounded-sm border border-accent/30 relative">
               <div className="absolute top-0 left-0 right-0 h-px bg-accent" />
               <p className="text-accent text-sm mb-2">Pro</p>
               <p className="font-display text-4xl mb-6">$29</p>
