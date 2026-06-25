@@ -61,10 +61,10 @@ export default function App() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Large card */}
-            <div className="md:col-span-2 glass p-8 rounded-sm">
-              <div className="w-10 h-10 bg-accent/10 flex items-center justify-center mb-6">
+            <div className="md:col-span-2 glass p-12 rounded-sm">
+              <div className="w-10 h-10 bg-accent/10 flex items-center justify-center mb-10">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <rect x="2" y="2" width="7" height="7" stroke="#00f5ff" strokeWidth="1.5"/>
                   <rect x="11" y="2" width="7" height="7" stroke="#00f5ff" strokeWidth="1.5"/>
@@ -72,62 +72,62 @@ export default function App() {
                   <rect x="11" y="11" width="7" height="7" stroke="#00f5ff" strokeWidth="1.5"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4">Adaptive Grid System</h3>
-              <p className="text-muted leading-relaxed">
+              <h3 className="text-xl font-semibold mb-6">Adaptive Grid System</h3>
+              <p className="text-muted leading-[1.8]">
                 Layouts that respond to content, not breakpoints. Our grid system understands hierarchy and adapts naturally to any screen size.
               </p>
             </div>
 
             {/* Small card */}
-            <div className="glass p-8 rounded-sm">
-              <div className="w-10 h-10 bg-gold/10 flex items-center justify-center mb-6">
+            <div className="glass p-12 rounded-sm">
+              <div className="w-10 h-10 bg-gold/10 flex items-center justify-center mb-10">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <circle cx="10" cy="10" r="8" stroke="#ffd700" strokeWidth="1.5"/>
                   <path d="M10 6v4l3 2" stroke="#ffd700" strokeWidth="1.5" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4">Motion First</h3>
-              <p className="text-muted leading-relaxed">
+              <h3 className="text-xl font-semibold mb-6">Motion First</h3>
+              <p className="text-muted leading-[1.8]">
                 Every interaction has purpose. Animations guide attention, not distract from it.
               </p>
             </div>
 
             {/* Small card */}
-            <div className="glass p-8 rounded-sm">
-              <div className="w-10 h-10 bg-accent/10 flex items-center justify-center mb-6">
+            <div className="glass p-12 rounded-sm">
+              <div className="w-10 h-10 bg-accent/10 flex items-center justify-center mb-10">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path d="M3 10h14M10 3v14" stroke="#00f5ff" strokeWidth="1.5" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4">Pixel Perfect</h3>
-              <p className="text-muted leading-relaxed">
+              <h3 className="text-xl font-semibold mb-6">Pixel Perfect</h3>
+              <p className="text-muted leading-[1.8]">
                 Every element is placed with intention. No random spacing, no arbitrary colors.
               </p>
             </div>
 
             {/* Medium card */}
-            <div className="glass p-8 rounded-sm">
-              <div className="w-10 h-10 bg-gold/10 flex items-center justify-center mb-6">
+            <div className="glass p-12 rounded-sm">
+              <div className="w-10 h-10 bg-gold/10 flex items-center justify-center mb-10">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <rect x="3" y="3" width="14" height="14" rx="2" stroke="#ffd700" strokeWidth="1.5"/>
                   <path d="M7 10h6M10 7v6" stroke="#ffd700" strokeWidth="1.5" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4">Component Library</h3>
-              <p className="text-muted leading-relaxed">
+              <h3 className="text-xl font-semibold mb-6">Component Library</h3>
+              <p className="text-muted leading-[1.8]">
                 50+ production-ready components that work together seamlessly.
               </p>
             </div>
 
             {/* Large card */}
-            <div className="md:col-span-2 glass p-8 rounded-sm">
-              <div className="w-10 h-10 bg-accent/10 flex items-center justify-center mb-6">
+            <div className="md:col-span-2 glass p-12 rounded-sm">
+              <div className="w-10 h-10 bg-accent/10 flex items-center justify-center mb-10">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path d="M4 16l4-4 4 4 4-8" stroke="#00f5ff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4">Performance by Default</h3>
-              <p className="text-muted leading-relaxed">
+              <h3 className="text-xl font-semibold mb-6">Performance by Default</h3>
+              <p className="text-muted leading-[1.8]">
                 Zero-config optimization. Lazy loading, code splitting, and asset optimization built into the core. Your app loads fast because the framework makes it impossible not to.
               </p>
             </div>
@@ -150,11 +150,11 @@ export default function App() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
-            <div className="glass p-8 rounded-sm">
-              <p className="text-muted text-sm mb-2">Starter</p>
-              <p className="font-display text-4xl mb-6">$0</p>
-              <ul className="space-y-3 text-sm text-muted mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <div className="glass p-12 rounded-sm">
+              <p className="text-muted text-sm mb-3">Starter</p>
+              <p className="font-display text-4xl mb-8">$0</p>
+              <ul className="space-y-4 text-sm text-muted mb-10">
                 <li>5 projects</li>
                 <li>Basic components</li>
                 <li>Community support</li>
@@ -162,11 +162,11 @@ export default function App() {
               <button className="btn-ghost w-full justify-center text-sm">Get Started</button>
             </div>
 
-            <div className="glass p-8 rounded-sm border border-accent/30 relative">
+            <div className="glass p-12 rounded-sm border border-accent/30 relative">
               <div className="absolute top-0 left-0 right-0 h-px bg-accent" />
-              <p className="text-accent text-sm mb-2">Pro</p>
-              <p className="font-display text-4xl mb-6">$29</p>
-              <ul className="space-y-3 text-sm text-muted mb-8">
+              <p className="text-accent text-sm mb-3">Pro</p>
+              <p className="font-display text-4xl mb-8">$29</p>
+              <ul className="space-y-4 text-sm text-muted mb-10">
                 <li>Unlimited projects</li>
                 <li>All components</li>
                 <li>Priority support</li>
@@ -175,10 +175,10 @@ export default function App() {
               <button className="btn-primary w-full justify-center text-sm">Start Free Trial</button>
             </div>
 
-            <div className="glass p-8 rounded-sm">
-              <p className="text-muted text-sm mb-2">Enterprise</p>
-              <p className="font-display text-4xl mb-6">Custom</p>
-              <ul className="space-y-3 text-sm text-muted mb-8">
+            <div className="glass p-12 rounded-sm">
+              <p className="text-muted text-sm mb-3">Enterprise</p>
+              <p className="font-display text-4xl mb-8">Custom</p>
+              <ul className="space-y-4 text-sm text-muted mb-10">
                 <li>Everything in Pro</li>
                 <li>Dedicated support</li>
                 <li>SLA guarantee</li>
