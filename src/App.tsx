@@ -503,7 +503,7 @@ export default function App() {
           </Reveal>
 
           {/* SATELLITE CARLS — 2 column */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
             <Reveal delay={1}>
               <TiltCard className="glass rounded-3xl p-12 md:p-14 group hover:border-white/[0.1] transition-colors duration-500">
                 <div className="w-14 h-14 bg-accent-subtle flex items-center justify-center text-accent rounded-2xl mb-12 glass-inner-glow">
@@ -530,7 +530,7 @@ export default function App() {
           </div>
 
           {/* SATELLITE CARDS — 3 column */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
               { icon: icons.shield, title: "Pixel Perfect", desc: "Every element placed with intention. No random spacing, no arbitrary values.", color: "accent" },
               { icon: icons.trend, title: "Performance", desc: "Zero-config optimization. Lazy loading, tree shaking, and edge delivery.", color: "gold" },
@@ -572,7 +572,7 @@ export default function App() {
             </div>
           </Reveal>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto items-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto items-center">
             {/* Starter */}
             <Reveal delay={1}>
               <div className="glass rounded-3xl p-14">
