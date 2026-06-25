@@ -38,7 +38,7 @@ export default function App() {
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-square bg-surface rounded-sm overflow-hidden">
+              <div className="aspect-square glass rounded-sm overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-transparent to-gold/5" />
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full bg-accent/10 blur-3xl" />
                 <div className="absolute bottom-8 right-8 w-32 h-32 border border-accent/20 rounded-sm" />
@@ -63,7 +63,7 @@ export default function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {/* Large card */}
-            <div className="md:col-span-2 bg-surface p-8 rounded-sm border border-white/5">
+            <div className="md:col-span-2 glass p-8 rounded-sm">
               <div className="w-10 h-10 bg-accent/10 flex items-center justify-center mb-6">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <rect x="2" y="2" width="7" height="7" stroke="#00f5ff" strokeWidth="1.5"/>
@@ -79,7 +79,7 @@ export default function App() {
             </div>
 
             {/* Small card */}
-            <div className="bg-surface p-8 rounded-sm border border-white/5">
+            <div className="glass p-8 rounded-sm">
               <div className="w-10 h-10 bg-gold/10 flex items-center justify-center mb-6">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <circle cx="10" cy="10" r="8" stroke="#ffd700" strokeWidth="1.5"/>
@@ -93,7 +93,7 @@ export default function App() {
             </div>
 
             {/* Small card */}
-            <div className="bg-surface p-8 rounded-sm border border-white/5">
+            <div className="glass p-8 rounded-sm">
               <div className="w-10 h-10 bg-accent/10 flex items-center justify-center mb-6">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path d="M3 10h14M10 3v14" stroke="#00f5ff" strokeWidth="1.5" strokeLinecap="round"/>
@@ -106,7 +106,7 @@ export default function App() {
             </div>
 
             {/* Medium card */}
-            <div className="bg-surface p-8 rounded-sm border border-white/5">
+            <div className="glass p-8 rounded-sm">
               <div className="w-10 h-10 bg-gold/10 flex items-center justify-center mb-6">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <rect x="3" y="3" width="14" height="14" rx="2" stroke="#ffd700" strokeWidth="1.5"/>
@@ -120,7 +120,7 @@ export default function App() {
             </div>
 
             {/* Large card */}
-            <div className="md:col-span-2 bg-surface p-8 rounded-sm border border-white/5">
+            <div className="md:col-span-2 glass p-8 rounded-sm">
               <div className="w-10 h-10 bg-accent/10 flex items-center justify-center mb-6">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path d="M4 16l4-4 4 4 4-8" stroke="#00f5ff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -151,7 +151,7 @@ export default function App() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
-            <div className="bg-surface p-8 rounded-sm border border-white/5">
+            <div className="glass p-8 rounded-sm">
               <p className="text-muted text-sm mb-2">Starter</p>
               <p className="font-display text-4xl mb-6">$0</p>
               <ul className="space-y-3 text-sm text-muted mb-8">
@@ -175,7 +175,7 @@ export default function App() {
               <button className="btn-primary w-full justify-center text-sm">Start Free Trial</button>
             </div>
 
-            <div className="bg-surface p-8 rounded-sm border border-white/5">
+            <div className="glass p-8 rounded-sm">
               <p className="text-muted text-sm mb-2">Enterprise</p>
               <p className="font-display text-4xl mb-6">Custom</p>
               <ul className="space-y-3 text-sm text-muted mb-8">

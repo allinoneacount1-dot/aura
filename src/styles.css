@@ -69,6 +69,13 @@ body {
   border-color: rgba(246, 248, 255, 0.4);
 }
 
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
 .grain {
   position: fixed;
   inset: 0;
