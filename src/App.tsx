@@ -464,7 +464,7 @@ export default function App() {
 
           {/* CORE SYSTEM — the focal point */}
           <Reveal>
-            <TiltCard className="glass glass-glow rounded-3xl p-14 md:p-16 mb-10 relative overflow-hidden group">
+            <TiltCard className="glass glass-glow rounded-3xl p-14 md:p-16 mb-16 relative overflow-hidden group">
               {/* Ambient glow */}
               <div className="absolute -top-20 -right-20 w-80 h-80 bg-[radial-gradient(ellipse_at_center,rgba(56,189,248,0.05),transparent_70%)] pointer-events-none transition-opacity duration-700 group-hover:opacity-150" />
 
@@ -503,7 +503,7 @@ export default function App() {
           </Reveal>
 
           {/* SATELLITE CARLS — 2 column */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
             <Reveal delay={1}>
               <TiltCard className="glass rounded-3xl p-12 md:p-14 group hover:border-white/[0.1] transition-colors duration-500">
                 <div className="w-14 h-14 bg-accent-subtle flex items-center justify-center text-accent rounded-2xl mb-12 glass-inner-glow">
