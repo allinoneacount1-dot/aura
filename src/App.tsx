@@ -321,7 +321,7 @@ export default function App() {
           HERO — cinematic composition
           focal point: the product showcase
           ═══════════════════════════════════ */}
-      <section className="relative min-h-screen flex items-center justify-center pt-32 pb-20">
+      <section className="relative min-h-screen flex items-center justify-center pt-32 pb-40">
         <div className="shell relative z-10">
           <div className="flex flex-col items-center text-center">
             {/* Eyebrow */}
@@ -445,11 +445,11 @@ export default function App() {
           FEATURES — editorial asymmetric
           focal point: the large core card
           ═══════════════════════════════════ */}
-      <section id="features" className="relative py-[clamp(100px,14vh,180px)]">
+      <section id="features" className="relative py-[clamp(140px,18vh,220px)]">
         <div className="shell">
           {/* Section header — left aligned, editorial */}
           <Reveal>
-            <div className="mb-20 max-w-xl">
+            <div className="mb-28 max-w-xl">
               <p className="text-accent text-[11px] font-medium tracking-[0.5em] uppercase mb-6 opacity-60">
                 Capabilities
               </p>
@@ -464,7 +464,7 @@ export default function App() {
 
           {/* CORE SYSTEM — the focal point */}
           <Reveal>
-            <TiltCard className="glass glass-glow rounded-3xl p-10 md:p-14 mb-8 relative overflow-hidden group">
+            <TiltCard className="glass glass-glow rounded-3xl p-14 md:p-16 mb-10 relative overflow-hidden group">
               {/* Ambient glow */}
               <div className="absolute -top-20 -right-20 w-80 h-80 bg-[radial-gradient(ellipse_at_center,rgba(56,189,248,0.05),transparent_70%)] pointer-events-none transition-opacity duration-700 group-hover:opacity-150" />
 
@@ -503,13 +503,13 @@ export default function App() {
           </Reveal>
 
           {/* SATELLITE CARLS — 2 column */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
             <Reveal delay={1}>
-              <TiltCard className="glass rounded-3xl p-10 md:p-12 group hover:border-white/[0.1] transition-colors duration-500">
-                <div className="w-14 h-14 bg-accent-subtle flex items-center justify-center text-accent rounded-2xl mb-10 glass-inner-glow">
+              <TiltCard className="glass rounded-3xl p-12 md:p-14 group hover:border-white/[0.1] transition-colors duration-500">
+                <div className="w-14 h-14 bg-accent-subtle flex items-center justify-center text-accent rounded-2xl mb-12 glass-inner-glow">
                   {icons.zap}
                 </div>
-                <h3 className="font-display text-xl text-text mb-6">Motion First</h3>
+                <h3 className="font-display text-xl text-text mb-7">Motion First</h3>
                 <p className="text-text-secondary font-light leading-[1.9]">
                   Every interaction has purpose. Physics-based timing, spring curves, and orchestrated sequences that guide attention.
                 </p>
@@ -517,11 +517,11 @@ export default function App() {
             </Reveal>
 
             <Reveal delay={2}>
-              <TiltCard className="glass rounded-3xl p-10 md:p-12 group hover:border-white/[0.1] transition-colors duration-500">
-                <div className="w-14 h-14 bg-gold-glow flex items-center justify-center text-gold rounded-2xl mb-10 glass-inner-glow">
+              <TiltCard className="glass rounded-3xl p-12 md:p-14 group hover:border-white/[0.1] transition-colors duration-500">
+                <div className="w-14 h-14 bg-gold-glow flex items-center justify-center text-gold rounded-2xl mb-12 glass-inner-glow">
                   {icons.layers}
                 </div>
-                <h3 className="font-display text-xl text-text mb-6">Component Library</h3>
+                <h3 className="font-display text-xl text-text mb-7">Component Library</h3>
                 <p className="text-text-secondary font-light leading-[1.9]">
                   50+ production-ready primitives. Composable, accessible, and themeable. Build any interface without fighting the framework.
                 </p>
@@ -530,18 +530,18 @@ export default function App() {
           </div>
 
           {/* SATELLITE CARDS — 3 column */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
               { icon: icons.shield, title: "Pixel Perfect", desc: "Every element placed with intention. No random spacing, no arbitrary values.", color: "accent" },
               { icon: icons.trend, title: "Performance", desc: "Zero-config optimization. Lazy loading, tree shaking, and edge delivery.", color: "gold" },
               { icon: icons.box, title: "Type Safe", desc: "Full TypeScript coverage. Autocomplete, inline docs, compile-time safety.", color: "accent" },
             ].map((item, i) => (
               <Reveal key={item.title} delay={i + 1}>
-                <TiltCard className="glass rounded-3xl p-10 group hover:border-white/[0.1] transition-colors duration-500">
-                  <div className={`w-14 h-14 ${item.color === "accent" ? "bg-accent-subtle text-accent" : "bg-gold-glow text-gold"} flex items-center justify-center rounded-2xl mb-10 glass-inner-glow`}>
+                <TiltCard className="glass rounded-3xl p-12 group hover:border-white/[0.1] transition-colors duration-500">
+                  <div className={`w-14 h-14 ${item.color === "accent" ? "bg-accent-subtle text-accent" : "bg-gold-glow text-gold"} flex items-center justify-center rounded-2xl mb-12 glass-inner-glow`}>
                     {item.icon}
                   </div>
-                  <h3 className="text-lg font-medium text-text mb-5">{item.title}</h3>
+                  <h3 className="text-lg font-medium text-text mb-6">{item.title}</h3>
                   <p className="text-text-secondary text-sm font-light leading-[1.8]">{item.desc}</p>
                 </TiltCard>
               </Reveal>
@@ -556,10 +556,10 @@ export default function App() {
           PRICING — Pro as center of gravity
           focal point: the Pro card
           ═══════════════════════════════════ */}
-      <section id="pricing" className="relative py-[clamp(100px,14vh,180px)]">
+      <section id="pricing" className="relative py-[clamp(140px,18vh,220px)]">
         <div className="shell relative z-10">
           <Reveal>
-            <div className="text-center mb-24">
+            <div className="text-center mb-28">
               <p className="text-accent text-[11px] font-medium tracking-[0.5em] uppercase mb-6 opacity-60">
                 Pricing
               </p>
@@ -572,13 +572,13 @@ export default function App() {
             </div>
           </Reveal>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto items-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto items-center">
             {/* Starter */}
             <Reveal delay={1}>
-              <div className="glass rounded-3xl p-12">
+              <div className="glass rounded-3xl p-14">
                 <p className="text-text-secondary text-sm font-light mb-5">Starter</p>
-                <p className="font-display text-5xl text-text mb-12">$0</p>
-                <ul className="space-y-5 text-sm text-text-secondary font-light mb-16">
+                <p className="font-display text-5xl text-text mb-14">$0</p>
+                <ul className="space-y-5 text-sm text-text-secondary font-light mb-18">
                   {["5 projects", "Basic components", "Community support"].map(t => (
                     <li key={t} className="flex items-center gap-3">
                       <span className="w-1 h-1 bg-accent/60 rounded-full" />
@@ -600,7 +600,7 @@ export default function App() {
                   </span>
                 </div>
 
-                <div className="glass glass-glow rounded-3xl p-14 md:-mt-4 md:mb-4 relative overflow-hidden">
+                <div className="glass glass-glow rounded-3xl p-16 md:-mt-4 md:mb-4 relative overflow-hidden">
                   {/* Animated border glow */}
                   <div className="absolute inset-0 rounded-3xl opacity-30 pointer-events-none"
                     style={{
@@ -612,8 +612,8 @@ export default function App() {
 
                   <div className="relative z-10">
                     <p className="text-accent text-sm font-light mb-5">Pro</p>
-                    <p className="font-display text-6xl md:text-7xl text-text mb-12">$29</p>
-                    <ul className="space-y-5 text-sm text-text-secondary font-light mb-16">
+                    <p className="font-display text-6xl md:text-7xl text-text mb-14">$29</p>
+                    <ul className="space-y-5 text-sm text-text-secondary font-light mb-18">
                       {["Unlimited projects", "All components", "Priority support", "Custom themes"].map(t => (
                         <li key={t} className="flex items-center gap-3">
                           <span className="w-1 h-1 bg-accent rounded-full" />
@@ -629,10 +629,10 @@ export default function App() {
 
             {/* Enterprise */}
             <Reveal delay={3}>
-              <div className="glass rounded-3xl p-12">
+              <div className="glass rounded-3xl p-14">
                 <p className="text-text-secondary text-sm font-light mb-5">Enterprise</p>
-                <p className="font-display text-5xl text-text mb-12">Custom</p>
-                <ul className="space-y-5 text-sm text-text-secondary font-light mb-16">
+                <p className="font-display text-5xl text-text mb-14">Custom</p>
+                <ul className="space-y-5 text-sm text-text-secondary font-light mb-18">
                   {["Everything in Pro", "Dedicated support", "SLA guarantee", "Custom development"].map(t => (
                     <li key={t} className="flex items-center gap-3">
                       <span className="w-1 h-1 bg-gold/60 rounded-full" />
@@ -652,7 +652,7 @@ export default function App() {
       {/* ═══════════════════════════════════
           FOOTER — minimal, centered
           ═══════════════════════════════════ */}
-      <footer className="relative py-24">
+      <footer className="relative py-28">
         <div className="shell">
           <Reveal>
             <div className="flex flex-col items-center text-center gap-8">
